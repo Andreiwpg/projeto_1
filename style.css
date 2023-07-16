@@ -1,0 +1,143 @@
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+}
+nav ul {     
+  
+background-color: blueviolet;
+height: 35px;
+width: 100%;
+align-items: center;
+font-family: sans-serif;
+gap: 2rem;
+display: flex;
+position: fixed;
+list-style: none;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}  
+li{
+    margin-left: 200px;
+}
+.navtxt{
+    align-items: center;
+    justify-content: center;
+}
+a {
+color:azure;
+padding: 50px;
+text-decoration: none;
+}
+
+a:hover{
+color: black;
+
+}
+
+.txtfoto {
+color: azure;
+align-items: center;
+font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: inline-block;
+vertical-align: top ;
+width: 50%;
+margin: 270px 90px 90px 180px;
+
+}
+
+.imgro{
+margin-top: 170px;
+margin-right: 10px;
+}
+.andtxt {
+color: azure;
+}
+
+.recados_titulo{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: inline-block;
+vertical-align: top ;
+margin-left: 46%;
+align-items: center;
+margin-top: 180px;
+
+}
+.txtrecado{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+margin-top: 50px;
+margin-left: 15%;
+margin-right: 17%;
+
+
+
+}
+.andtxt{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 13px;
+text-align:left;
+margin-top: 10px;
+margin-left: 350px;
+}
+.h2_nossas{
+color: azure;
+font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+padding: 10px 0 0 0;
+margin-right: 210px;
+}
+#cartas{
+color: azure;
+
+}
+.video{
+    margin-left: 35%;
+    margin-top: 180px;
+}
+
+#fotos {
+align-items:baseline;
+margin-left: 210px;
+
+}
+
+.teste{
+margin: 50px 150px 0 0;
+border-radius: 20px; max-width: 200px; max-height: 250px;
+
+}
+
+.teste:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.txt_footer{
+background-color: blueviolet;
+color: azure;
+height: 35px;
+width: 100%;
+align-items: center; 
+font-family: sans-serif;
+padding-top: 25px; 
+margin-top: 35px;
+font-size: 17px;
+display: flex;
+justify-content: center;
+padding-bottom: 19px;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 3rem;
+}
