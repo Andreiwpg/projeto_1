@@ -40,49 +40,53 @@ color: black;
 }
 
 .txtfoto {
+display: flex;
 color: azure;
-font-size: 15px;
+font-size: 25px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-width: 100%;
-text-align: center;
-padding: 50px 0 0 50px;
+width: 200%;
+text-align:center;
+align-items: center;
+padding: 60px 40px 50px 100px;
 
 }
 
 .imgro{
 width: 100%;
 margin-top: 150px;
-margin-left: 190px;
+margin-left: 350px;
+max-width: 250px; max-height: 250px;
 }
 .andtxt {
 color: azure;
 }
 
 .recados_titulo{
-font-size: 20px;
+font-size: 25px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-display: inline-block;
+display: flex;
 vertical-align: top ;
 width: 100%;
 align-items: center;
-margin-left: 10px;
+margin-left: 300px;
 text-align: center;
 
 }
 .txtrecado{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 12px;
+font-size: 25px;
 margin-top: 50px;
-margin-left: 15%;
-margin-right: 17%;
-
+margin-left: 250px;
+text-align:center;
+display:flex;
+width: 100%;
 
 
 }
 .andtxt{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 13px;
-text-align:left;
+font-size: 15px;
+text-align: left;
 margin-top: 10px;
 margin-left: 350px;
 margin-bottom: 80px;
@@ -94,13 +98,13 @@ width: 100%;
 
 }
 .video{
-    margin-left: 70px;
+    margin-left: 270px;
     width: 100%;
 }
 
 #fotos h2{
     color: azure;
-    font-size: 18px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -113,8 +117,10 @@ width: 100%;
 display: grid;
 width: 100%;
 grid-template-columns: 2fr;
-padding: 0 0 0 180px;
+padding: 0 0 220px 180px;
+gap: 50px;
 width: 100%;
+margin-left: 175px;
 
 }
 
@@ -132,19 +138,18 @@ width: 100%;
 	transform: scale(1.2);
 }
 
-.txt_footer{
-background-color: blueviolet;
-color: azure;
-height: 35px;
-width: 600px;
-align-items: center; 
-font-family: sans-serif;
-padding-top: 25px; 
-margin-top: 35px;
-font-size: 17px;
-display: flex;
-justify-content: center;
-padding-bottom: 19px;
+.txt_footer {
+    background-color: blueviolet;
+    color: azure;
+    display: flex;
+    height: 35px;
+    width: 200%;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 section {
