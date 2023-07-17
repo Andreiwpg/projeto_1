@@ -8,30 +8,29 @@ html{
 body {
     background-color: black;
 }
-nav ul {     
+header ul{     
   
 background-color: blueviolet;
 height: 35px;
 width: 100%;
-align-items: center;
 font-family: sans-serif;
-gap: 2rem;
-display: flex;
 position: fixed;
 list-style: none;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
 
 }  
-li{
-    margin-left: 200px;
+
+.menu{
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 8px;
 }
-.navtxt{
-    align-items: center;
-    justify-content: center;
-}
+
+
 a {
 color:azure;
-padding: 50px;
 text-decoration: none;
 }
 
@@ -42,19 +41,18 @@ color: black;
 
 .txtfoto {
 color: azure;
-align-items: center;
-font-size: 18px;
+font-size: 15px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-display: inline-block;
-vertical-align: top ;
-width: 50%;
-margin: 270px 90px 90px 180px;
+width: 100%;
+text-align: center;
+padding: 50px 0 0 50px;
 
 }
 
 .imgro{
-margin-top: 170px;
-margin-right: 10px;
+width: 100%;
+margin-top: 150px;
+margin-left: 190px;
 }
 .andtxt {
 color: azure;
@@ -65,9 +63,10 @@ font-size: 20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 display: inline-block;
 vertical-align: top ;
-margin-left: 46%;
+width: 100%;
 align-items: center;
-margin-top: 180px;
+margin-left: 10px;
+text-align: center;
 
 }
 .txtrecado{
@@ -86,33 +85,44 @@ font-size: 13px;
 text-align:left;
 margin-top: 10px;
 margin-left: 350px;
+margin-bottom: 80px;
 }
-.h2_nossas{
-color: azure;
-font-size: 18px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-align: center;
-padding: 10px 0 0 0;
-margin-right: 210px;
-}
+
 #cartas{
 color: azure;
+width: 100%;
 
 }
 .video{
-    margin-left: 35%;
-    margin-top: 180px;
+    margin-left: 70px;
+    width: 100%;
 }
 
+#fotos h2{
+    color: azure;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    width: 100%;
+    }
+
 #fotos {
-align-items:baseline;
-margin-left: 210px;
+display: grid;
+width: 100%;
+grid-template-columns: 2fr;
+padding: 0 0 0 180px;
+width: 100%;
 
 }
 
 .teste{
-margin: 50px 150px 0 0;
-border-radius: 20px; max-width: 200px; max-height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    max-width: 250px; max-height: 250px;
+    
 
 }
 
@@ -126,7 +136,7 @@ border-radius: 20px; max-width: 200px; max-height: 250px;
 background-color: blueviolet;
 color: azure;
 height: 35px;
-width: 100%;
+width: 600px;
 align-items: center; 
 font-family: sans-serif;
 padding-top: 25px; 
