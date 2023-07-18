@@ -1,4 +1,4 @@
-*{ margin: 0;
+ *{ margin: 0;
    padding: 0;
    box-sizing: border-box; 
 }
@@ -24,8 +24,8 @@ position: fixed;
 }
 
 .navtxt1{
-    background-color: blueviolet;
-    width: 100%;
+    background-color: gray;
+    width: 280px;
     height: 35px;
     font-family: sans-serif;
     position: fixed;
@@ -33,10 +33,11 @@ position: fixed;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    margin-left: 290px;
 }
 .navtxt2{
-    background-color: blueviolet;
-    width: 100%;
+    background-color: gray;
+    width: 280px;
     height: 55px;
     font-family: sans-serif;
     font-size: 30px;
@@ -45,10 +46,11 @@ position: fixed;
     text-align: center;
     margin-top: 35px ;
    font-weight: bold;
+   margin-left: 290px;
 }
 .navtxt3{
-    background-color:blueviolet;
-    width: 100%;
+    background-color:gray;
+    width: 280px;
     height: 35px;
     font-family: sans-serif;
     font-size: 30px;
@@ -57,6 +59,7 @@ position: fixed;
     text-align: center;
     font-weight: bold;
     margin-top: 70px;
+    margin-left: 290px;
 }
 a {
 color:azure;
@@ -82,7 +85,7 @@ padding: 60px 40px 50px 60px;
 
 .imgro{
 width: 100%;
-margin-top: 150px;
+margin-top: 350px;
 margin-left: 280px;
 }
 
@@ -134,7 +137,7 @@ width: 100%;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 100px;
     margin-right: 10px;
     width: 100%;
@@ -143,7 +146,7 @@ width: 100%;
 #fotos {
 display: grid;
 width: 100%;
-grid-template-columns: 2fr;
+grid-template-columns: 2frs;
 padding: 0 0 220px 120px;
 gap: 50px;
 width: 100%;
@@ -165,17 +168,19 @@ margin-left: 175px;
 	transform: scale(1.2);
 }
 .rodape{
-    width: 800px;  
+    width: 480px;  
 }
 .txt_footer {
-    background-color: blueviolet;
+    background-color: gray;
     color: azure;
     height: 35px;
-    width: 100%;
-    font-size: 25px;
+    width: 480px;
+    font-size: 22px;
     text-align: center;
     font-family: sans-serif;
     justify-content: center;
+    padding-top: 5px;
+    margin-left: 180px;
     
 }
 
